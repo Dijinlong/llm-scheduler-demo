@@ -100,6 +100,6 @@ scheduler_demo.go   实现 + 模拟入口
 
 这套东西一共三个仓库，并列放在同账号下：
 
-- `llm-price-compare` —— 把不同计价口径归一化成一张可比的表
-- `llm-api-compat-check` —— OpenAI 兼容层的 5 项体检
-- `llm-scheduler-demo` —— 多货源派单：健康分 + 熔断 + 带探索的加权选择
+- [`llm-price-compare`](../llm-price-compare) —— 把不同计价口径归一化成一张可比的表
+- [`llm-api-compat-check`](../llm-api-compat-check) —— OpenAI 兼容层的 5 项体检
+- [`llm-scheduler-demo`](../llm-scheduler-demo) —— 多货源派单：健康分 + 熔断 + 带探索的加权选择
